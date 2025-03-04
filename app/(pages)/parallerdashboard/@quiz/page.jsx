@@ -2,7 +2,6 @@ import getAlldata from "@/app/lib/getAlldata";
 
 const page = async () => {
   let data = await getAlldata();
-  // console.log(data);
   return (
     <div className="">
       <div className="gap-3 flex-wrap h-full py-5 bg-gradient-to-r from-blue-500 to-indigo-500 flex items-center justify-center">

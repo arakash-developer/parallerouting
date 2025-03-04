@@ -1,7 +1,7 @@
 import wait from "@/app/lib/wait";
 
 const page = async () => {
-  await wait(4000);
+  await wait(20000);
   return (
     <div className="h-full ">
       <div className="h-full py-5 bg-gradient-to-r from-blue-500 to-indigo-500 flex items-center justify-center">

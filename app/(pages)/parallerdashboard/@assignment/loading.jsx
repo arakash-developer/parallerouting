@@ -1,12 +1,12 @@
 import React from 'react'
+import Layout from './Layout'
 
 const loading = () => {
+  let data = true;
   return (
-    <div className="flex items-center justify-center h-full bg-blue-100">
-      <div className="text-center">
-        <p className="text-xl font-bold text-gray-700">Loading Assignment 2s Please...</p>
-      </div>
-    </div>
+    <>
+    <Layout Load={data} />
+    </>
   )
 }
 

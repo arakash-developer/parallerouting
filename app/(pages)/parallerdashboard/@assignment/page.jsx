@@ -1,21 +1,19 @@
 import wait from "@/app/lib/wait";
+import Layout from "@/app/(pages)/parallerdashboard/@assignment/Layout";
 
 const page = async () => {
-  await wait(2000);
+  await wait(3000);
+  let data = {
+    title: "Introduction to Computer Science",
+    description:
+      "Write a program in Python or Java to calculate the sum of all prime numbers less than 1000. The program should take an integer as input from the user and display the sum of all prime numbers less than the input number.",
+    due: 3,
+  };
+
   return (
-    <div className="bg-white rounded-lg shadow-lg p-8">
-      <h2 className="text-2xl font-bold mb-4">Assignment</h2>
-      <p className="text-gray-600">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
-        nulla auctor, vestibulum magna sed, convallis ex.
-      </p>
-      <div className="flex items-center mt-4">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-          Start Assignment
-        </button>
-        <span className="ml-4 text-gray-600">Due in 3 days</span>
-      </div>
-    </div>
+   <>
+   <Layout data={data} />
+   </>
   );
 };
 

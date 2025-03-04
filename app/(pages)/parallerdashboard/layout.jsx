@@ -1,7 +1,7 @@
-const Layout = ({ children, assignment, notification, quiz }) => {
+const layout = ({ children, assignment, notification, quiz }) => {
   return (
     <>
-      <div className="grid grid-rows-2 h-screen">
+      <div className="">
         <div className="grid grid-cols-2">
           {assignment}
           {notification}
@@ -13,4 +13,4 @@ const Layout = ({ children, assignment, notification, quiz }) => {
   );
 };
 
-export default Layout;
+export default layout;

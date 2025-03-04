@@ -8,7 +8,10 @@ const page = () => {
       <p className="text-gray-600">
         You can intercept the routes here.
       </p>
-      <div className="flex items-center mt-4">
+      <div className="flex gap-3 items-center mt-4">
+        <Link href="/interceptor" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Back
+        </Link>
         <Link href="/interceptor/folder2" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           Go to folder2
         </Link>

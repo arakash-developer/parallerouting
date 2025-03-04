@@ -13,7 +13,7 @@ const page = () => {
           Back
         </Link>
         <Link
-          href="/interceptor/folder1/folder2"
+          href="/interceptor/folder2"
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
           Go to folder2

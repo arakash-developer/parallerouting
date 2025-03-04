@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
@@ -13,6 +14,9 @@ const Header = () => {
           <a className="mr-5 hover:text-white font-light">THIRD LINK</a>
           <a className="mr-5 hover:text-white font-light">FOURTH LINK</a>
         </nav>
+        <Link href="/interceptor" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Intercepting Route
+        </Link>
       </div>
     </header>
   )

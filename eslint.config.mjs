@@ -6,7 +6,8 @@ export default [
   next.configs.recommended,
   {
     rules: {
-      "no-console": ["warn", { allow: ["warn", "error"] }], // Warn only on console.log
+      "no-console": ["error", { allow: ["warn", "error"] }], // Error on console.log
     },
   },
 ];
+

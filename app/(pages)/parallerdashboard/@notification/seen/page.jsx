@@ -1,3 +1,4 @@
+import wait from "@/app/lib/wait";
 import Link from "next/link";
 
 const page = async () => {
@@ -7,15 +8,19 @@ const page = async () => {
       role="alert"
     >
       <h2 className="font-bold text-2xl mb-4">Notification</h2>
-      <p className="text-lg">Click Button to see notification</p>
+      <p className="text-lg">
+        This is a notification message. Please pay attention to this important
+        information.
+      </p>
       <div className="mt-4">
         <Link
-          href="/parallerdashboard/seen"
+          href="/parallerdashboard"
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer"
         >
-          View details
+          Back
         </Link>
       </div>
+     
     </div>
   );
 };

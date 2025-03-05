@@ -15,6 +15,12 @@ const page = () => {
       >
         Interceptor Routing
       </Link>
+      <Link
+        href="/gallery"
+        className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded text-lg"
+      >
+        Gallery
+      </Link>
     </div>
   );
 };

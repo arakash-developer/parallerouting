@@ -1,5 +1,5 @@
 const Layout = ({ data, Load = false }) => {
-  console.log(data);
+  // console.log(data);
 
   return (
     <div className="bg-white rounded-lg shadow-lg p-8">
